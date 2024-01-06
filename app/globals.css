@@ -2,6 +2,31 @@
 @tailwind components;
 @tailwind utilities;
 
+h1 {
+  @apply text-4xl font-bold;
+}
+
+h2 {
+  @apply text-2xl font-bold;
+}
+
+input {
+  @apply bg-[#18191E] border border-[#33353F] hover:border-yellow-600 text-gray-100 text-sm rounded-lg block w-full p-2.5;
+}
+
+label {
+  @apply text-white block text-sm mb-2 font-medium;
+}
+
+.btn {
+  @apply bg-yellow-500 hover:bg-yellow-600 text-white font-bold cursor-pointer px-6 py-2 mt-4 rounded-lg;
+}
+
+.btn-danger {
+  @apply bg-red-500 hover:bg-red-600 text-white font-bold cursor-pointer px-6 py-2 mt-4 rounded-lg;
+}
+
+/* 
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -24,4 +49,4 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
-}
+} */
